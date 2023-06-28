@@ -8,13 +8,13 @@ export function ScreenB() {
     const navigation = useNavigation();
   
     function openScreen(){
-        navigation.navigate('screenA')
+        navigation.navigate('screenC', {name: "Esse conteúdo veio da tela B"})
     }
   
     return (
     <View style={styles.container}>
         <Button
-            title="Voltar para Tela A"
+            title="Ir para Tela C"
             onPress={openScreen}
             color="#fff"
         />

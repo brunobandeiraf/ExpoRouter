@@ -4,7 +4,6 @@ const { Screen, Navigator} = createNativeStackNavigator();
 
 import { ScreenA } from '../screens/ScreenA';
 import { ScreenB } from '../screens/ScreenB';
-import { ImageBackground } from 'react-native/types';
 
 export function StackRoutes(){
     return(
