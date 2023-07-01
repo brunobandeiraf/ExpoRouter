@@ -1,10 +1,3 @@
 # Navigation
 
-
-
-
-## Expo Router
-
-## Install expo-router and peer dependencies:
-npx expo install expo-router react-native-safe-area-context react-native-screens expo-linking expo-constants expo-status-bar react-native-gesture-handler
-
+Projeto consiste na implementação da funcionalidade de navegação utilizando as bibliotecas Navegation e Router Navegation. 
